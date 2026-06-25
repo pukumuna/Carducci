@@ -306,9 +306,14 @@ input[type="submit"] {
 	margin: 3px;
 }
 
-.nav-link {			/* 23-06-26*/
+.nav-link {		/* 23-06-26*/
     cursor: pointer;
-	color: #b88a44;
+    color: #2b2b2b !important;
+    background-color: transparent !important;
+}
+.nav-link.active {
+    color: #2b2b2b !important;
+    background-color: rgb(190, 190, 90) !important;
 }
 .nav-link:hover {	/* 23-06-26*/
     cursor: pointer;
