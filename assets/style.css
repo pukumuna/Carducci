@@ -306,6 +306,15 @@ input[type="submit"] {
 	margin: 3px;
 }
 
+.nav-link {			/* 23-06-26*/
+    cursor: pointer;
+	color: #b88a44;
+}
+.nav-link:hover {	/* 23-06-26*/
+    cursor: pointer;
+    color: #c28b48;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
