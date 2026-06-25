@@ -299,6 +299,10 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+.gallery img {
+	 width:"500";
+	  height:"333";
+}
 
 .carousel-indicators [data-bs-target] {  /* 23-06-26*/
     width: 20px;

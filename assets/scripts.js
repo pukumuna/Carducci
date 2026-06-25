@@ -12,6 +12,9 @@ $(document).ready(function() {
         showTags: true,
         tagsPosition: 'top'
     });
+    $(".gallery img").attr("loading", "lazy");
+    $(".carousel-inner img").attr("loading", "lazy");   
+     
 });
 
 
