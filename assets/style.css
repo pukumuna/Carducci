@@ -299,21 +299,21 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
-.gallery img {
+.gallery img {		/* 25-06-26*/
 	 width:"500";
 	  height:"333";
 }
-
-.carousel-indicators [data-bs-target] {  /* 23-06-26*/
-    width: 20px;
-    height: 8px;
-	margin: 3px;
-}
-.carousel-item img {      /* 23-06-26*/
+.carousel-item img {  /* 25-06-26*/
     width: 100%;
     height: 500px;
     object-fit: cover;
 }
+.carousel-indicators [data-bs-target] {/* 23-06-26*/
+    width: 20px;
+    height: 8px;
+	margin: 3px;
+}
+
 .nav-link {		/* 23-06-26*/
     cursor: pointer;
     color: #2b2b2b !important;
@@ -325,24 +325,24 @@ input[type="submit"] {
 }
 .nav-link:hover {	/* 23-06-26*/
     cursor: pointer;
-    color: #c28b48;
+    color: #c28b48 !important;
 }
-.carousel-control-prev,
+.carousel-control-prev,  /* 25-06-26*/
 .carousel-control-next {
     width: 6%;
 }
 
-.carousel-control-prev:hover,
+.carousel-control-prev:hover,   /* 25-06-26*/
 .carousel-control-next:hover {
     background-color: rgba(0, 0, 0, 0.25);
 }
 
-.visually-hidden {
+.visually-hidden {   /* 25-06-26*/
     color: inherit !important;
     background-color: transparent !important;
     opacity: 0 !important;
 }
-.visually-hidden {
+.visually-hidden {   /* 25-06-26*/
     position: absolute !important;
     width: 1px !important;
     height: 1px !important;
