@@ -301,7 +301,7 @@ input[type="submit"] {
 }
 .gallery img {		/* 25-06-26*/
 	 width:"500";
-	  height:"333";
+	 height:"333";
 }
 .carousel-item img {  /* 25-06-26*/
     width: 100%;
@@ -336,21 +336,10 @@ input[type="submit"] {
 .carousel-control-next:hover {
     background-color: rgba(0, 0, 0, 0.25);
 }
-
-.visually-hidden {   /* 25-06-26*/
-    color: inherit !important;
-    background-color: transparent !important;
-    opacity: 0 !important;
-}
-.visually-hidden {   /* 25-06-26*/
-    position: absolute !important;
-    width: 1px !important;
-    height: 1px !important;
-    padding: 0 !important;
-    margin: -1px !important;
-    overflow: hidden !important;
-    clip: rect(0,0,0,0) !important;
-    white-space: nowrap !important;
+.carousel-control-prev span:nth-of-type(2) {
+  	font-size:2rem !important;
+    color:black !important;
+    background-color: blue !important;
     opacity: 0 !important;
 }
 
